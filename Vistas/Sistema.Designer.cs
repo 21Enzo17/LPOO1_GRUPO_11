@@ -54,6 +54,7 @@
             btnAltaCategorias.TabIndex = 1;
             btnAltaCategorias.Text = "Alta de Categorias";
             btnAltaCategorias.UseVisualStyleBackColor = true;
+            btnAltaCategorias.Click += btnAltaCategorias_Click;
             // 
             // btnAltaDisciplinas
             // 

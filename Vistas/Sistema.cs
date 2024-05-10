@@ -24,5 +24,12 @@ namespace Vistas
             this.Hide();
             prinicpalReferencia.Show();
         }
+
+        private void btnAltaCategorias_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form altaCategoria = new AltaCategoria(this);
+            altaCategoria.Show();
+        }
     }
 }
